@@ -1,0 +1,13 @@
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <jar>../EVault.jar</jar>
+  <outfile>../EVault.exe</outfile>
+  <errTitle>EVault</errTitle>
+  <chdir>.</chdir>
+  <icon>EVault.ico</icon>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest>EVault.manifest</manifest>
+  <jre>
+    <minVersion>1.6.0</minVersion>
+  </jre>
+</launch4jConfig>
